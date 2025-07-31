@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "smalltweaks",
+	"id": "mobgrowuptweaks",
 	"version": "${version}",
-	"name": "Small Tweaks",
-	"description": "Collection of simple configurable tweaks.",
+	"name": "Mob Grow Up Tweaks",
+	"description": "Customize how quickly mobs grow up",
 	"authors": [
 		"Edryu"
 	],
 	"contact": {
-		"homepage": "https://www.modrinth.com/mod/smalltweaks",
-		"sources": "https://github.com/Edryu29/smalltweaks"
+		"homepage": "https://www.modrinth.com/mod/mobgrowuptweaks",
+		"sources": "https://github.com/Edryu29/mobgrowuptweaks"
 	},
 	"license": "MIT",
-	"icon": "assets/smalltweaks/icon.png",
+	"icon": "assets/mobgrowuptweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.edryu.smalltweaks.SmallTweaksMain"
+			"net.edryu.mobgrowuptweaks.MobGrowUpTweaksMain"
 		],
 		"modmenu": [
-			"net.edryu.smalltweaks.SmallTweaksModMenu"
+			"net.edryu.mobgrowuptweaks.MobGrowUpTweaksModMenu"
 		]
 	},
 	"mixins": [
-		"smalltweaks.mixins.json"
+		"mobgrowuptweaks.mixins.json"
 	],
 	"depends": {
 		"java": ">=17",

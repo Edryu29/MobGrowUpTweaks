@@ -1,4 +1,4 @@
-package net.edryu.smalltweaks;
+package net.edryu.mobgrowuptweaks;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
@@ -7,9 +7,9 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 
 @Environment(EnvType.CLIENT)
-public class SmallTweaksModMenu implements ModMenuApi {
+public class MobGrowUpTweaksModMenu implements ModMenuApi {
 	@Override
 	public ConfigScreenFactory<?> getModConfigScreenFactory() {
-		return parent -> AutoConfig.getConfigScreen(SmallTweaksConfig.class, parent).get();
+		return parent -> AutoConfig.getConfigScreen(MobGrowUpTweaksConfig.class, parent).get();
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"required": true,
-	"package": "net.edryu.smalltweaks.mixin",
-	"compatibilityLevel": "JAVA_17",
+	"package": "net.edryu.mobgrowuptweaks.mixin",
+	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"VillagerBreedTaskMixin",
 		"PassiveEntityMixin",
