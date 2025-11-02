@@ -13,4 +13,6 @@ public class MobGrowUpTweaksConfig implements ConfigData {
     public int AnimalBredGrowUpTime = 60000;
     @Comment("Default: 36000 - Vanilla: 24000")
     public int AnimalSpawnedGrowUpTime = 36000;
+    @Comment("Default: true")
+    public boolean AlwaysBabyCustomName = true;
 }

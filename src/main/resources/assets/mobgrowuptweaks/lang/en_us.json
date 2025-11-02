@@ -2,5 +2,6 @@
     "text.autoconfig.MobGrowUpTweaks.title": "Mob Grow Up Tweaks Config",
     "text.autoconfig.MobGrowUpTweaks.option.VillagerGrowUpTime": "Villagers Grow Up Time",
     "text.autoconfig.MobGrowUpTweaks.option.AnimalBredGrowUpTime": "Bred Animals Grow Up Time",
-    "text.autoconfig.MobGrowUpTweaks.option.AnimalSpawnedGrowUpTime": "Spawned Animals Grow Up Time"
+    "text.autoconfig.MobGrowUpTweaks.option.AnimalSpawnedGrowUpTime": "Spawned Animals Grow Up Time",
+    "text.autoconfig.MobGrowUpTweaks.option.AlwaysBabyCustomName": "Animals Custom Name Always Baby"
 }
